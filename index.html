@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png"class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#my skills">My Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact me">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+        </div>
+    </div>
+ </div>   
+ <!-- about -->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About me</h1>
+                <p>
+                    I am currently pursuing a Bachelor of Technology in Information Technology.
+                    With a passion for coding and technology, I have been consistently excelling 
+                    in my academic coursework and have earned recognition for my outstanding performance.
+                    Throughout my studies, I have been developing my skills in a range of programming languages
+                     and have gained experience in various areas of software development.</p>
+<div class="tab-titles">
+<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+<p class="tab-links" onclick="opentab('experience')">Experience</p>
+<p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>Web Development</span><br> HTML,CSS,XML,JAVA SCRIPT,PHP</li>
+        <li><span>Programming Languages</span><br> C,JAVA,PYTHON</li>
+        <li><span>DataBases</span><br> SQL,MongoDB</li>
+    </ul>
+</div>
+<div class="tab-contents" id="experience">
+    <ul>
+        <li><span>2021</span><br> Intern at Lyfaux Private Limited.</li>
+        
+    </ul>
+</div>
+<div class="tab-contents" id="education">
+    <ul>
+        <li><span>2024</span><br> B.Tech from KKR AND KSR Institute Of Technology And Sciences</li>
+        <li><span>2020</span><br> Intermediate from Narayana Junior College</li>
+        <li><span>2018</span><br> SSC from Kennedy High School</li>
+    </ul>
+</div>
+            </div>
+        </div>
+    </div>
+
+ </div>
+ <!-- -----------my skills ------------------>
+ <div id="my skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skill-list">
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                <h2>Programming Languages</h2>
+                <p>Have a huge knowledge on C,Python and JAVA.Completed certifications in all of these languages.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>DataBases</h2>
+                <p>SQL and MongoDB. Attended a workshop on MongoDB for a week by CodeTantra.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                 <h2>Web Technologies</h2>
+                <p>Done a course on HTML,CSS,JavaScript and PHP.</p>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- ---------------Portfolio-------------------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>  
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Cyber Security</h3>
+                    <p>This app connects you to the security measures regarding internet.Download it.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3> Website Designing</h3>
+                    <p>This app connects you to the various templates available for websites.Download it.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png"><div class="layer">
+                    <h3> Android App Development</h3>
+                    <p>This app connects you to the creation of new apps.Download it.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>  
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!-------------------------------- contact------------------------------->
+ <div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>syedsalmasakeen@gmail.com</p>
+                <p> <i class="fa-sharp fa-solid fa-phone"></i>0987654321</p>
+                <div class="socialicons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=" https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" id="" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Syed Salma Sakeen. Made in 2023. </p>
+    </div>
+ </div>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        } 
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+ </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxXx5qAYN8HmSTP4E-YM1x2RQJtnYTNPI8G0MAhj-mj1I0LKk6_y8KZFaiqkwHjDspxsA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
